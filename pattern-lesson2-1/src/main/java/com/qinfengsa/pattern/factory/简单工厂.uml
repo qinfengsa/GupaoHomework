@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.qinfengsa.pattern.factory.simplefactory.NoteBookFactory</OriginalElement>
+  <nodes>
+    <node x="237.0" y="203.0">com.qinfengsa.pattern.factory.simplefactory.SimpleFactoryTest</node>
+    <node x="0.0" y="203.0">com.qinfengsa.pattern.factory.simplefactory.NoteBookFactory</node>
+    <node x="79.5" y="0.0">com.qinfengsa.pattern.factory.entity.INoteBook</node>
+    <node x="0.0" y="104.0">com.qinfengsa.pattern.factory.entity.MateBook</node>
+    <node x="159.0" y="104.0">com.qinfengsa.pattern.factory.entity.MacBook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.qinfengsa.pattern.factory.entity.MateBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="79.0" />
+      <point x="114.25" y="79.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MacBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="228.5" y="79.0" />
+      <point x="183.75" y="79.0" />
+      <point x="34.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-3.5" y="66.5" />
+  <SelectedNodes>
+    <node>com.qinfengsa.pattern.factory.simplefactory.NoteBookFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

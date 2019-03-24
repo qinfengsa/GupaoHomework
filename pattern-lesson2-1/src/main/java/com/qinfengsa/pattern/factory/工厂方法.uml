@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest</OriginalElement>
+  <nodes>
+    <node x="253.23263888888886" y="322.0">com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest</node>
+    <node x="159.99999999999997" y="114.0">com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory</node>
+    <node x="265.53125" y="0.0">com.qinfengsa.pattern.factory.entity.INoteBook</node>
+    <node x="358.0" y="114.0">com.qinfengsa.pattern.factory.entity.MateBook</node>
+    <node x="345.6145833333333" y="218.0">com.qinfengsa.pattern.factory.factorymethod.MateBookFactory</node>
+    <node x="50.16666666666663" y="218.0">com.qinfengsa.pattern.factory.factorymethod.MacBookFactory</node>
+    <node x="0.0" y="114.0">com.qinfengsa.pattern.factory.entity.MacBook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MateBookFactory" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="59.33333333333334" y="-27.0" />
+      <point x="493.94791666666663" y="193.0" />
+      <point x="511.75" y="193.0" />
+      <point x="511.75" y="84.0" />
+      <point x="369.78125" y="84.0" />
+      <point x="34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MacBookFactory" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="139.16666666666663" y="193.0" />
+      <point x="149.49999999999997" y="193.0" />
+      <point x="149.49999999999997" y="84.0" />
+      <point x="300.28125" y="84.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest" target="com.qinfengsa.pattern.factory.factorymethod.MacBookFactory">
+      <point x="-64.875" y="-27.0" />
+      <point x="274.85763888888886" y="302.0" />
+      <point x="139.16666666666663" y="302.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest" target="com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory">
+      <point x="-21.625" y="-27.0" />
+      <point x="318.10763888888886" y="292.0" />
+      <point x="248.99999999999997" y="292.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MateBookFactory" target="com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory">
+      <point x="-59.33333333333334" y="-27.0" />
+      <point x="375.28125" y="193.0" />
+      <point x="308.33333333333337" y="193.0" />
+      <point x="59.33333333333337" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MateBookFactory" target="com.qinfengsa.pattern.factory.entity.MateBook">
+      <point x="0.0" y="-27.0" />
+      <point x="434.6145833333333" y="193.0" />
+      <point x="427.5" y="193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest" target="com.qinfengsa.pattern.factory.factorymethod.MateBookFactory">
+      <point x="21.625" y="-27.0" />
+      <point x="361.35763888888886" y="292.0" />
+      <point x="434.6145833333333" y="292.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MacBookFactory" target="com.qinfengsa.pattern.factory.entity.MacBook">
+      <point x="-59.333333333333314" y="-27.0" />
+      <point x="79.83333333333331" y="193.0" />
+      <point x="69.5" y="193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.MacBookFactory" target="com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory">
+      <point x="59.333333333333314" y="-27.0" />
+      <point x="198.49999999999994" y="193.0" />
+      <point x="189.66666666666663" y="193.0" />
+      <point x="-59.33333333333334" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MateBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="427.5" y="94.0" />
+      <point x="346.6145833333333" y="94.0" />
+      <point x="11.583333333333343" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.FactoryMethodTest" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="64.875" y="-27.0" />
+      <point x="404.60763888888886" y="302.0" />
+      <point x="534.1145833333333" y="302.0" />
+      <point x="534.1145833333333" y="74.0" />
+      <point x="392.94791666666663" y="74.0" />
+      <point x="57.91666666666668" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="248.99999999999997" y="94.0" />
+      <point x="323.4479166666667" y="94.0" />
+      <point x="-11.583333333333314" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MacBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="74.0" />
+      <point x="277.1145833333333" y="74.0" />
+      <point x="-57.916666666666686" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="230.0" />
+  <SelectedNodes>
+    <node>com.qinfengsa.pattern.factory.factorymethod.INoteBookFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

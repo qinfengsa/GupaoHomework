@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.qinfengsa.pattern.factory.abstractfactory.HuaweiFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="150.0">com.qinfengsa.pattern.factory.abstractfactory.HuaweiFactory</node>
+    <node x="0.0" y="399.0">com.qinfengsa.pattern.factory.entity.MateBook</node>
+    <node x="343.0" y="498.0">com.qinfengsa.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="79.5" y="498.0">com.qinfengsa.pattern.factory.entity.ITelPhone</node>
+    <node x="502.0" y="399.0">com.qinfengsa.pattern.factory.entity.AppleIPad</node>
+    <node x="159.0" y="602.0">com.qinfengsa.pattern.factory.entity.AppleIPhone</node>
+    <node x="79.5" y="295.0">com.qinfengsa.pattern.factory.entity.INoteBook</node>
+    <node x="343.0" y="399.0">com.qinfengsa.pattern.factory.entity.HuaweiTablet</node>
+    <node x="258.0" y="150.0">com.qinfengsa.pattern.factory.abstractfactory.AppleFactory</node>
+    <node x="0.0" y="602.0">com.qinfengsa.pattern.factory.entity.MatePhone</node>
+    <node x="422.5" y="295.0">com.qinfengsa.pattern.factory.entity.ITablet</node>
+    <node x="159.0" y="399.0">com.qinfengsa.pattern.factory.entity.MacBook</node>
+    <node x="129.0" y="0.0">com.qinfengsa.pattern.factory.abstractfactory.ElectronicFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.qinfengsa.pattern.factory.abstractfactory.AppleFactory" target="com.qinfengsa.pattern.factory.abstractfactory.ElectronicFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="377.0" y="125.0" />
+      <point x="307.5" y="125.0" />
+      <point x="59.5" y="50.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.AppleIPad" target="com.qinfengsa.pattern.factory.entity.ITablet">
+      <point x="0.0" y="-27.0" />
+      <point x="571.5" y="374.0" />
+      <point x="526.75" y="374.0" />
+      <point x="34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MateBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="374.0" />
+      <point x="114.25" y="374.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.AppleIPhone" target="com.qinfengsa.pattern.factory.entity.ITelPhone">
+      <point x="0.0" y="-27.0" />
+      <point x="228.5" y="577.0" />
+      <point x="183.75" y="577.0" />
+      <point x="34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MatePhone" target="com.qinfengsa.pattern.factory.entity.ITelPhone">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="577.0" />
+      <point x="114.25" y="577.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.HuaweiTablet" target="com.qinfengsa.pattern.factory.entity.ITablet">
+      <point x="0.0" y="-27.0" />
+      <point x="412.5" y="374.0" />
+      <point x="457.25" y="374.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.abstractfactory.HuaweiFactory" target="com.qinfengsa.pattern.factory.abstractfactory.ElectronicFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="119.0" y="125.0" />
+      <point x="188.5" y="125.0" />
+      <point x="-59.5" y="50.0" />
+    </edge>
+    <edge source="com.qinfengsa.pattern.factory.entity.MacBook" target="com.qinfengsa.pattern.factory.entity.INoteBook">
+      <point x="0.0" y="-27.0" />
+      <point x="228.5" y="374.0" />
+      <point x="183.75" y="374.0" />
+      <point x="34.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="110.5" y="256.5" />
+  <SelectedNodes>
+    <node>com.qinfengsa.pattern.factory.entity.ITelPhone</node>
+    <node>com.qinfengsa.pattern.factory.entity.MatePhone</node>
+    <node>com.qinfengsa.pattern.factory.entity.AppleIPhone</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
