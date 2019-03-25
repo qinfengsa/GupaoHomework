@@ -1,6 +1,7 @@
 package com.qinfengsa.pattern.prototype.entity;
 
 /**
+ * 订单
  * @author: qinfengsa
  * @date: 2019/3/17 23:25
  */

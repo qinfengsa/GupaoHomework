@@ -29,7 +29,7 @@ public class OrderTest {
 
     @Test
     public void testCreateOld() throws  Exception{
-        OrderService service = new OrderServiceImpl_Old();
+        OrderService service = new OldOrderServiceImpl();
         service.createOrderByJson(json);
 
 
