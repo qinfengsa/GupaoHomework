@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="90.50000000000003" y="185.0">org.springframework.core.serializer.support.SerializationDelegate</node>
+    <node x="234.87500000000003" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="62.82500000000002" y="81.0">org.springframework.core.serializer.Serializer</node>
+    <node x="0.0" y="406.0">org.springframework.cache.concurrent.ConcurrentMapCache</node>
+    <node x="327.82500000000005" y="81.0">org.springframework.core.serializer.Deserializer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.cache.concurrent.ConcurrentMapCache" target="org.springframework.core.serializer.support.SerializationDelegate">
+      <point x="0.0" y="-246.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="org.springframework.core.serializer.support.SerializationDelegate" target="org.springframework.core.serializer.Serializer">
+      <point x="-165.0" y="-85.5" />
+      <point x="145.50000000000003" y="160.0" />
+      <point x="124.07500000000002" y="160.0" />
+      <point x="-61.25" y="27.0" />
+    </edge>
+    <edge source="org.springframework.core.serializer.support.SerializationDelegate" target="org.springframework.core.serializer.Deserializer">
+      <point x="55.0" y="-85.5" />
+      <point x="365.5" y="160.0" />
+      <point x="382.32500000000005" y="160.0" />
+      <point x="-54.5" y="27.0" />
+    </edge>
+    <edge source="org.springframework.core.serializer.Serializer" target="java.lang.FunctionalInterface">
+      <point x="2.8421709430404007E-14" y="-27.0" />
+      <point x="185.32500000000005" y="56.0" />
+      <point x="274.125" y="56.0" />
+      <point x="-39.25" y="15.5" />
+    </edge>
+    <edge source="org.springframework.core.serializer.Deserializer" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="436.82500000000005" y="56.0" />
+      <point x="352.625" y="56.0" />
+      <point x="39.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9434167573449401" x="310.5" y="449.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
