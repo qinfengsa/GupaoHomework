@@ -1,0 +1,77 @@
+public class com.qinfengsa.pattern.singleton.lazy.LazyInnerClassSingleton
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #7.#29         // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton."<init>":()V
+   #2 = Methodref          #8.#29         // java/lang/Object."<init>":()V
+   #3 = Methodref          #11.#30        // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$LazyHolder.access$000:()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+   #4 = Class              #31            // java/lang/RuntimeException
+   #5 = String             #32            // 不允许创建多个实例
+   #6 = Methodref          #4.#33         // java/lang/RuntimeException."<init>":(Ljava/lang/String;)V
+   #7 = Class              #34            // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton
+   #8 = Class              #35            // java/lang/Object
+   #9 = Class              #36            // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1
+  #10 = Utf8               InnerClasses
+  #11 = Class              #37            // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$LazyHolder
+  #12 = Utf8               LazyHolder
+  #13 = Utf8               <init>
+  #14 = Utf8               ()V
+  #15 = Utf8               Code
+  #16 = Utf8               LineNumberTable
+  #17 = Utf8               LocalVariableTable
+  #18 = Utf8               this
+  #19 = Utf8               Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+  #20 = Utf8               StackMapTable
+  #21 = Class              #34            // com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton
+  #22 = Utf8               getInstance
+  #23 = Utf8               ()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+  #24 = Utf8               (Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1;)V
+  #25 = Utf8               x0
+  #26 = Utf8               Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1;
+  #27 = Utf8               SourceFile
+  #28 = Utf8               LazyInnerClassSingleton.java
+  #29 = NameAndType        #13:#14        // "<init>":()V
+  #30 = NameAndType        #38:#23        // access$000:()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+  #31 = Utf8               java/lang/RuntimeException
+  #32 = Utf8               不允许创建多个实例
+  #33 = NameAndType        #13:#39        // "<init>":(Ljava/lang/String;)V
+  #34 = Utf8               com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton
+  #35 = Utf8               java/lang/Object
+  #36 = Utf8               com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1
+  #37 = Utf8               com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$LazyHolder
+  #38 = Utf8               access$000
+  #39 = Utf8               (Ljava/lang/String;)V
+{
+  // 调用getInstance
+  public static final com.qinfengsa.pattern.singleton.lazy.LazyInnerClassSingleton getInstance();
+    descriptor: ()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=1, locals=0, args_size=0
+         //  invokestatic调用方法 拿到对象access$000:()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton
+         // LazyInnerClassSingleton$LazyHolder的构造方法
+         0: invokestatic  #3                  // Method com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$LazyHolder.access$000:()Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+         3: areturn
+      LineNumberTable:
+        line 27: 0
+
+  com.qinfengsa.pattern.singleton.lazy.LazyInnerClassSingleton(com.qinfengsa.pattern.singleton.lazy.LazyInnerClassSingleton$1);
+    descriptor: (Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1;)V
+    flags: ACC_SYNTHETIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_0
+         // 初始化#1 LazyInnerClassSingleton."<init>"
+         1: invokespecial #1                  // Method "<init>":()V
+         4: return
+      LineNumberTable:
+        line 8: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton;
+            0       5     1    x0   Lcom/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1;
+}
+SourceFile: "LazyInnerClassSingleton.java"
+InnerClasses:
+     static #9; //class com/qinfengsa/pattern/singleton/lazy/LazyInnerClassSingleton$1
